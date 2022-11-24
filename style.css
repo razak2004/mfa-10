@@ -1,0 +1,79 @@
+:root {
+  --very-dark-blue: hsl(217, 54%, 11%);
+  --dark-blue: hsl(216, 50%, 16%);
+  --blue: hsl(215, 32%, 27%);
+  --light-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+}
+body {
+  background-color: var(--very-dark-blue);
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  font-family: outfit;
+}
+section {
+  width: 350px;
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 25px;
+
+  align-items: center;
+
+  height: 600px;
+}
+#cube {
+  height: 300px;
+  width: 300px;
+  border-radius: 25px;
+}
+h1 {
+  color: white;
+}
+.dis {
+  color: var(--light-blue);
+}
+#dis1 {
+  color: var(--cyan);
+}
+.ether {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#sec1 {
+  width: 300px;
+  /* margin-top: -20px; */
+}
+#sec2 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+.eth {
+  height: 20px;
+  margin-right: 5px;
+}
+#log {
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+content {
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+#footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
